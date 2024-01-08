@@ -1,0 +1,136 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(235, 18%, 26%);
+  color:  hsl(234, 29%, 20%);
+}
+main {
+  background-color:  hsl(0, 0%, 100%);
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  padding: 23px;
+  transition: 0.3s ease-in-out;
+}
+.inscricao{
+    max-width:460px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+h1{
+    font-size: 55px;
+    font-weight: 900;
+}
+p{
+    margin: 25px 0;
+    font-weight: 500;
+    font-size: 17px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.lista{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 13px;
+}
+.lista img{
+    width: 20px;
+}
+form{
+    margin: 45px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 15px;
+}
+.labels{
+    width: 390px;
+    display: flex;
+    justify-content: space-between;
+}
+label{
+    font-weight: 900;
+    font-size: 12px;
+}
+.label-invalid{
+    color: hsl(4, 100%, 67%);
+    font-weight: 600;
+    opacity: 0;
+}
+.invalid{
+    opacity: 1;
+}
+
+.input{
+    padding: 15px 15px;
+    width: 390px;
+    height: 55px;
+    border: solid 2px hsl(231, 7%, 60%);
+    border-radius: 8px;
+    font-size: 16px;  
+}
+
+.input::placeholder{  
+    font-size: 16px;
+    color: hsl(231, 7%, 60%);
+}
+.input-invalid{
+    border: solid 2px hsl(4, 100%, 67%);
+    background-color:hsla(4, 95%, 75%, 0.428) ;   
+}
+.input-invalid::placeholder{  
+    color: hsl(4, 100%, 67%);
+}
+
+button{
+    background-color: hsl(234, 29%, 20%) ;
+    color: aliceblue;
+    margin-top: 15px;
+    padding: 15px 15px;
+    width: 390px;
+    height: 55px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.confirmacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 490px;
+    width: 100%;
+    padding: 50px;
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 100%);
+    transition: 0.3s ease-in-out;
+}
+.confirmacao h2{
+    margin-top: 35px;
+    font-size: 60px;
+    font-weight: 900;
+}
+.confirmacao p{
+    color:  hsl(234, 29%, 20%);
+}
+
+.confirmacao span{
+    font-weight: 900;
+}
+.mostrar-esconder{
+   display: none; 
+}
